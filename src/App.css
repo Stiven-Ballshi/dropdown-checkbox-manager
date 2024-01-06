@@ -1,0 +1,42 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  width: 300px;
+  font-size: 15px;
+  background: transparent;
+  border: none;
+}
+
+.button-container {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.dropdown-panel {
+  width: 500px;
+  position: absolute;
+  margin-top: 10px;
+  border: 2px solid gray;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 13px;
+}
+
+.input-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
